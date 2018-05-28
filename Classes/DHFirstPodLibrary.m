@@ -8,6 +8,12 @@
 
 #import "DHFirstPodLibrary.h"
 
+@interface DHFirstPodLibrary ()
+
+@@property (nonatomic, strong) NSString *name;
+
+@end
+
 @implementation DHFirstPodLibrary
 
 @end
